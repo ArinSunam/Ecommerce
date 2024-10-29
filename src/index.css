@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-container {
+    @apply mx-auto px-[15px] sm:px-[30px] w-full sm:w-[600px] md:w-[720px] lg:w-[992px] xl:w-[1240px]
+  }
+}
